@@ -1,0 +1,2 @@
+# SZEOLSC
+szeolsc.hu portál
