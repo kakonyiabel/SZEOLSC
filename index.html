@@ -40,13 +40,24 @@
                 <a class="nav-item nav-link" href="#">Kapcsolat</a>
             </div>
         </div>
-        <div class="icons">
-            <a href="#" data-toggle="popover" data-content="Search" id="search"><i class="fas fa-search"></i></a>
+        <!-- Search -->
+        <div class="search-container" id="sdiv">
+            <form action="">
+                <input type="text" placeholder=" Search" name="search" id="searchbox">
+            </form>
         </div>
+        <a onclick="fadeinsearch()" id="searchico" data-content="Search">
+            <i class="fas fa-search"></i>
+        </a>
     </nav>
 
-<button onclick="topFunction()" id="myBtn" class="bg-primary"><i id="upa" class="fas fa-angle-up"></i></button>
+    <!--Scroll top button-->
 
+    <button onclick="topFunction()" id="myBtn" class="bg-primary">
+        <i id="upa" class="fas fa-angle-up"></i>
+    </button>
+</body>
+<footer>
     <!-- Import scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -56,5 +67,5 @@
     <script src="js/owl.script.js"></script>
     <script src="js/scroll.js"></script>
 
-</body>
+</footer>
 </html>

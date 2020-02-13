@@ -17,3 +17,14 @@ function topFunction() {
 $("html, body").animate({ scrollTop: "0" }, 500);
   document.documentElement.scrollTop = 0;
 }
+
+//
+    var scont = document.getElementById("sdiv");
+
+    function fadeinsearch() {
+        if (scont.style.display == "none") {
+            scont.style.display = "block";
+        } else {
+            scont.style.display = "none";
+        }
+    }

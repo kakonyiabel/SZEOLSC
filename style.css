@@ -4,7 +4,7 @@ body {
 
 /* Logo and Navbar */
  .navigation {
-	z-index: 99;
+	z-index: 90;
     font-size: 1.5rem;
     padding: 0px 10px 0px 10px;
 }
@@ -13,14 +13,25 @@ body {
 	padding: 0px;
 }
 
- .navigation .icons {
-	margin: 10px;
+/*Search*/
+
+#sdiv{
+  display: none;
 }
 
- .navigation .icons a {
-	color: rgb(255, 255, 255);
-	font-size: 1.5rem;
-	margin: 5px;
+#searchbox{
+  border: 0px;
+  border-radius: 10px;
+  outline-style: none;
+}
+
+#searchico{
+  color: #fff;
+  font-size: 1.5rem;
+  margin: 0px 10px 0px 0px;
+  display: block;
+  z-index: 91;
+  cursor: pointer;
 }
 
 #myBtn {
@@ -28,7 +39,7 @@ body {
   position: fixed;
   bottom: 20px;
   right: 30px;
-  z-index: 99;
+  z-index: 90;
   color: white;
   cursor: pointer;
   padding: 15px;
